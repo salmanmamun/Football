@@ -3,14 +3,15 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF; ;
-    margin: 50px;
-    
+    margin:none;  
 }
 /*.....................
  first section container 
  .......................*/
 .container{
     background-color:slateblue;
+    width: 1600px;
+    height: 500px;
     
 }
 h1{
@@ -22,6 +23,7 @@ h1{
  
   
 .color{
+ 
     color: wheat;
     width: 485px;
     height: 230px;
@@ -36,7 +38,7 @@ h1{
 }
  /* images */
 .football-player{
-    width: 556.01px;
+    width: 506.01px;
     height: 438px;
         
 }
@@ -59,6 +61,8 @@ h1{
     flex-direction: row;
     align-items: flex-start;
     padding: 50px;
+    
+    
 }
 .block-2{
     display:grid;
@@ -102,3 +106,4 @@ h1{
     text-align:center;
     font-size: 25px;
 }
+ 
