@@ -1,0 +1,104 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF; ;
+    margin: 50px;
+    
+}
+/*.....................
+ first section container 
+ .......................*/
+.container{
+    background-color:slateblue;
+    
+}
+h1{
+    font-size:64px;
+}
+ /*.............
+  Heading color 
+  .............*/
+ 
+  
+.color{
+    color: wheat;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;      
+}
+/* Block */
+.half-width{
+    display: flex;
+    width: 100%;
+    padding-left: 5%;
+}
+ /* images */
+.football-player{
+    width: 556.01px;
+    height: 438px;
+        
+}
+.football-player:hover{
+    transform: rotate(10deg);
+    transform-origin:right;
+}
+
+/* link button design */
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding:20px 40px;  
+    border-radius: 5px;  
+}
+/* section 2 design */
+.container-2{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 50px;
+}
+.block-2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;  
+}
+.block2-images{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+}
+.block-2, .block2-images img{
+    width: 350px;
+    height: 300px;
+    margin:20px 60px 30px 15px;
+    margin-bottom:20%; 
+    align-items: center;
+   
+    
+}
+.player-details, .player-title{
+    margin:10px 30px 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.player-details{
+    margin-bottom: 10px;
+}
+.extra{
+    
+    text-align:left;
+}
+.copyright{
+    text-align: center;
+    display: flex;
+    width: 100.87px;
+    height: 150px;
+  
+}
+.logo{
+    text-align:center;
+    font-size: 25px;
+}
